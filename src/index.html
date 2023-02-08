@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container text-center w-auto p-3 bg-secondary bg-gradient  border border-4  ">
+        <h1 class="border border-4 bg-dark bg-gradient text-white ">Munka BerszámFejtés</h1>
+
+        <div class="form-group  ">
+            <label for="exampleFormControlSelect1" class="">Milyen müszak ?</label>
+            <select class="form-control rounded-4 " id="exampleFormControlSelect1">
+                <option >Délelott</option>
+                <option>Délután</option>
+                <option>Éjszaka</option>
+
+            </select>
+            <label for="exampleFormControlSelect1" class="">Volt-e túlóra ?</label>
+            <select class="form-control rounded-4 " id="exampleFormControlSelect1">
+                <option>Igen</option>
+                <option>Nem</option>
+
+            </select>
+            </select>
+            <label for="exampleFormControlSelect1" class="">Rendkívüli volt-e ?</label>
+            <select class="form-control rounded-4" id="exampleFormControlSelect1">
+                <option>Igen</option>
+                <option>Nem</option>
+
+            </select>
+        </div>
+            <label for="start">Munka Napja</label>
+
+            <input type="date" id="start" name="trip-start"
+        value="2023-02-01"
+        min="2023-01-01" max="2025-12-31" class="rounded-4 mt-3">
+
+
+
+        <button type="button" class="btn btn-dark w-100 d-flex justify-content-center p-3 mt-3">Nap hozzaadas +</button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
